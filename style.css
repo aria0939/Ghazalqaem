@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "moster";
+}
+@font-face {
+    font-family: moster;
+    src: url(./fonts/Montserrat-Italic-VariableFont_wght.ttf);
+    src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+.container{
+    width: 1120px;
+    margin: 0 auto;
+}
+body{
+    background-color: #000000;
+}
+#asli{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#chapi{
+    margin-top: 50%;
+    width: 560px;
+    color: #fff;
+}
+#chapi h2{
+    margin: 40px 0;
+    font-size: 2.5rem;
+}
+#chapi p:nth-of-type(1){
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-weight: 700;
+    margin: 35px 0 0;
+}
+#chapi p:nth-of-type(2){
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 300;
+    margin-top: 20px;
+}
+#box{
+    width: 510px;
+    display: flex;
+    flex-direction: column;
+}
+
+.jb{ 
+    color: #000000;
+    background-color: #E8BDA1;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#asli p{
+    margin-top: 10px;
+}
+#asli h2{
+    margin-bottom: 10px;
+    font-size: 800;
+}
+#chapi input{
+    background-color: #E8BDA1;
+    color: #000000;
+    padding: 15px 35px;
+    border: none;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.img{
+    margin-left: 50%;
+    transform: translate(-50%);
+    height: 500px;
+    width: 100%;
+    border-radius: 10px;
+}
